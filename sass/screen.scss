@@ -1,0 +1,284 @@
+// Set the global compass vars.
+$legacy-support-for-ie6: false;
+$legacy-support-for-ie7: false;
+$legacy-support-for-ie8: true;
+$legacy-support-for-mozilla: false;
+// Import the normalize plugin
+@import "normalize";
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*{
+	text-decoration: none;
+}
+
+.carousel-indicators {
+    bottom: 20px; }
+.clearfix:before, .clearfix:after {
+  content: " ";
+}
+
+p, h1, h2{
+  color: #FFF;
+}
+.wrapper{
+}
+/*導航欄*/
+.container{
+  height: 670px;
+  background-image: url("/imageS/logo.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px;
+
+  
+  
+ }
+
+.container_in{
+
+  position:fixed;
+
+  width: 960px;
+  margin-left: 230px;
+  padding-top: 30px;
+
+}
+
+.lili{
+  float: left;
+  width: 450px;
+  height: 100px;
+
+}
+.logo{
+
+  background-image: url("/imageS/logo_over.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 250px;
+  height: 30px;
+}
+
+/*.lil{
+  float: right;
+  background-color: #36b34a; 
+  width: 560px;
+  height: 30px;
+}*/
+
+ .li{
+  
+  float: left;
+  width: 30px;
+  height: 30px;
+  /*float: right;*/
+  padding:0 30px;
+  /*  font-size: 100%;*/
+  color: black;
+   letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-decoration:none;
+  padding-top: 10px;
+ }
+
+
+
+.line {
+float: left;
+display: inline-block;
+width: 0;
+height: 30px;
+margin: 0px 25px 13px 20px;
+border-right: 1px solid #FFF;
+}
+
+.bloglogo{
+  float: left;
+  width: 57px;
+  height: 26px;
+  
+  background-image: url("/imageS/_blog_over.png");
+}
+
+.beauty_content{
+  
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  margin: 300px 430px;
+  text-align: center;
+
+}
+
+.beauty_icon{
+  width: 500px;
+  height: 60px;
+  background-image: url("/imageS/cakecion.png");
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+
+.beauty_content h1{
+  font-size: 450%;
+}
+.beauty_content h2{
+  font-size: 120%;
+  margin: 20px 0; 
+}
+
+.journey_out{
+  background-image: url("/imageS/2.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px;
+  height: 670px;
+}
+.out{
+  width: 960px;
+  height: 670px;
+  margin-left: 200px;
+  /*background-color: #CCFF00;*/
+}
+
+
+
+.journey_row{
+  float: left;
+  width: 220px;
+  height: 200px;
+  /*background-color: #1D81E6;*/
+  text-align: center;
+  margin: 200px 45px 0 45px;
+  &:first-child{
+  	 float: left;
+  	width: 220px;
+  	height: 200px;
+  	/*background-color: #1D81E6;*/
+  	text-align: center;
+  	margin: 200px 0px 0 45px;
+  	}
+  &:last-child{
+	  float: left;
+	  width: 220px;
+	  height: 200px;
+	  /*background-color: #1D81E6;*/
+	  text-align: center;
+	  margin: 200px 45px 0 0px;
+	}
+}
+
+
+
+
+.each_day{
+  font-size: 70px;
+  color: white;
+  font-family: 'Ultra', serif;
+}
+
+.each_month{
+  font-size: 20px;
+  color: white;
+}
+
+.each_city{
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  background-color: white;
+  border-radius: 60px;
+  padding: 10px 0; 
+  width: auto;
+  margin-top: 10px;
+  /*height: 50px;*/
+  /*padding:20px 30px; 
+background:#dddddd;
+width:100px;
+border-radius:60px;*/
+}
+.journey-inbuttom{
+  position: absolute;
+  width: 960px;
+  height: 150px;
+  /*background-color: #dddddd;*/
+  margin-top: 450px;
+  margin-left: auto;
+  text-align: center;
+  h1{
+ 	font:{
+ 		family: 'Quattrocento',  serif;
+  		size: 250%;}
+	}
+  p{
+  	font-size: 120%;
+  	margin: 20px 0; 
+	}
+}
+
+
+
+.journey_button{
+
+  color: #202020;
+  font-size: 10px;
+  color: black;
+
+  display: block;
+  width: 100px;
+  height: auto;
+  background-color: #FFF;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin: 0px 430px;
+}
