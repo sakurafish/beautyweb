@@ -1,0 +1,16 @@
+2014-07-17 15:52:58     error sass/screen.scss (Line 61: Invalid CSS after "...ottom: 20px; } ": expected selector or at-rule, was "}")
+2014-07-17 15:52:58 overwrite stylesheets/screen.css 
+2014-07-17 15:53:16 overwrite stylesheets/screen.css 
+2014-07-17 15:53:18 identical stylesheets/screen.css 
+2014-07-17 15:53:49 overwrite stylesheets/screen.css 
+2014-07-17 15:54:17 overwrite stylesheets/screen.css 
+2014-07-17 15:55:28 identical stylesheets/screen.css 
+2014-07-17 15:56:50 overwrite stylesheets/screen.css 
+2014-07-17 15:57:09 overwrite stylesheets/screen.css 
+2014-07-17 15:57:24 identical stylesheets/screen.css 
+2014-07-17 15:57:45 overwrite stylesheets/screen.css 
+2014-07-17 15:58:03 overwrite stylesheets/screen.css 
+2014-07-17 15:58:57 overwrite stylesheets/screen.css 
+2014-07-17 15:59:21 overwrite stylesheets/screen.css 
+2014-07-17 16:04:51 identical stylesheets/screen.css 
+2014-07-17 16:20:06 overwrite stylesheets/screen.css 
