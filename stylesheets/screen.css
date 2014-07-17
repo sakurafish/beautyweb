@@ -335,7 +335,7 @@ p, h1, h2 {
 /* line 76, ../sass/screen.scss */
 .container {
   height: 670px;
-  background-image: url("images/logo.jpg");
+  background-image: url("../images/logo.jpg");
   background-repeat: no-repeat;
   background-size: 1400px;
 }
@@ -357,7 +357,7 @@ p, h1, h2 {
 
 /* line 102, ../sass/screen.scss */
 .logo {
-  background-image: url("images/logo_over.png");
+  background-image: url("../images/logo_over.png");
   background-repeat: no-repeat;
   position: absolute;
   width: 250px;
@@ -402,7 +402,7 @@ p, h1, h2 {
   float: left;
   width: 57px;
   height: 26px;
-  background-image: url("images/_blog_over.png");
+  background-image: url("../images/_blog_over.png");
 }
 
 /* line 154, ../sass/screen.scss */
@@ -418,7 +418,7 @@ p, h1, h2 {
 .beauty_icon {
   width: 500px;
   height: 60px;
-  background-image: url("images/cakecion.png");
+  background-image: url("../images/cakecion.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -436,7 +436,7 @@ p, h1, h2 {
 
 /* line 182, ../sass/screen.scss */
 .journey_out {
-  background-image: url("images/2.jpg");
+  background-image: url("../images/2.jpg");
   background-repeat: no-repeat;
   background-size: 1400px;
   height: 670px;
